@@ -1,0 +1,28 @@
+/* CSS file placeholder. */
+#id_base {
+    width:90%;
+    min-width:800px;
+    /*max-width:1280px;*/
+    height:85%;
+    min-height:550px;
+    max-height:800px;
+    margin-left:auto;
+    margin-right:auto;
+    /*background:#008888;*/
+}
+#id_table{
+    width: 80%;
+    height: 90%;
+    margin: 100px 0 0 0;
+    text-align: center;
+}
+
+.row {
+    float: none;
+    width:auto;
+}
+
+.column {
+    float: none;
+    width:auto;
+}

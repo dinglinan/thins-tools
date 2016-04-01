@@ -1,0 +1,36 @@
+{
+  "name": "THINS-TOOLS",
+   "short_name": "THINS-TOOLS",
+   "background": {
+      "scripts": ["lib/main.js"]
+   },
+  "chrome_url_overrides": {
+    "newtab": "core/newpage-pop.html"
+  },
+   "description": "desc",
+   "homepage_url": "http://www.richdown.com",
+   "icons": {
+      "16": "assets/icon_16.png",
+      "48": "assets/icon_128.png",
+      "128": "assets/icon_128.png"
+   },
+   "manifest_version": 2,
+   "page_action": {
+      "default_popup": "core/popup.html"
+   },
+  "optional_permissions": [ "topSites", "chrome://favicon/" ],
+  "permissions": [
+    "tabs", "*://*/*","contextMenus","declarativeContent","tabs", "bookmarks", "management", "unlimitedStorage"
+  ],
+  "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.1",
+  "content_scripts":[
+    {
+      "matches":["*://*/*","http://*/*","https://*/*"],
+      "js":["lib/jquery-1.10.2.min.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "assets/UNIX_TS_2.png"
+  ]
+}

@@ -1,0 +1,101 @@
+div {
+	margin: 7px;
+}
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 62.5%;
+	width: 200px;
+}
+h1 { 
+	font-size: 1.4em; 
+	margin-top:	4pt;
+    margin-bottom: 4pt;
+	font-weight:bold;
+}
+h2 { 
+	font-size: 1.1em; 
+	margin-top:	4pt;
+    margin-bottom: 4pt;
+	font-weight:bold;
+}
+p { 
+	font-size: 1.1em; 
+	margin-bottom: 1pt;
+	margin-top: 1pt;
+}
+pre { 
+	font-size: 1.3em;
+}
+dl, dt {
+	font-size: 1.1em;
+}
+select,textarea, input[type=text], input[type=password]{
+	border: 1px solid #a6c9e2;
+	background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100.png) 50% bottom repeat-x;
+	color: #222222;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+input[type=submit]{
+	display: inline-block;
+	position: relative;
+	padding: 0.4em 1em;
+	margin-right: .1em;
+	text-decoration: none !important;
+	cursor: pointer;
+	text-align: center; zoom: 1;
+	overflow: visible;
+	font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+	font-size: 1.1em;
+	border: 1px solid #c5dbec;
+	background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #2e6e9e;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+a:link{color:#000000;}
+a:visited{color:#000000;}
+a:hover{color:#ff0000;Text-Decoration:underline;}
+a img { border: 0; }
+table.result { 
+	font-size: 1.1em; 
+	margin-bottom: 5px;
+	border-spacing: 4px; 
+	border-collapse: separate; 
+	margin-left:0px;
+}
+table.result td {
+	vertical-align:top;
+	padding-right:7px;
+}
+tr.hover:hover {
+background-color: #d0e3f2;
+}
+.summarytitle {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 130%;
+}
+.summarytext {
+	font-size: 120%;
+	line-height: 160%;
+}
+.adboxcontentbrowse {
+	float: left;
+	width: 350px;
+	text-align: center;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.adboxcontentbrowse h3 {
+	padding: 0px;
+	margin: 0px;
+	font: 90% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+	font-weight:normal;
+	text-align:center;
+}
