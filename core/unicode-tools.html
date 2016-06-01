@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>Unicode编码转换 - 站长工具</title>
+    <meta name="keywords" content="Unicode编码转换,Unicode转ASCII,ASCII转Unicode,中文转Unicode,Unicode转中文">
+    <meta name="description"
+          content="本工具是Unicode编码转换，为您提供ASCII与Unicode互转，Unicode与中文互转，在文本框里输入要转换的内容，然后点击要转换的类型按钮，转换完成后即可看到对应的内容。">
+
+    <link rel="stylesheet" type="text/css" href="/lib/unicodeTools/css/all-base.css">
+    <link rel="stylesheet" type="text/css" href="/lib/unicodeTools/css/publicstyle.css">
+    <link rel="stylesheet" href="/lib/unicodeTools/css/toolstyle.css" type="text/css">
+    <script type="text/javascript" src="/lib/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/lib/unicodeTools/js/unicode-tools.js"></script>
+
+</head>
+
+<body class="pularge">
+<!--top-public-begin-->
+<!--Tool-MainWrap-begin-->
+<div class="Tool-MainWrap wrapper">
+    <p class="ClassHead-wrap clearfix">
+        <a href="javascript:" class="CHeadcur ml15">Unicode编码</a>
+        <a href="http://tool.chinaz.com/tools/utf-8.aspx">UTF-8编码</a>
+        <a href="http://tool.chinaz.com/tools/urlencode.aspx">URL编码/解码</a>
+        <a href="http://tool.chinaz.com/tools/unixtime.aspx">Unix时间戳</a>
+        <a href="http://tool.chinaz.com/tools/native_ascii.aspx">Ascii/Native编码互转</a>
+    </p>
+</div>
+<!--Tool-MainWrap-begin-->
+
+<!--ToolMain02-begin-->
+<div class="wrapper">
+    <div class="wwlr auto">
+        <!--GuoLvWrap-begin-->
+        <div class="clearfix">
+            <div class="pr JsTxtW-r fl">
+                <textarea class="JsTxtCo bor-a1s h200 WrapHid wwlr-l" name="content" id="id_content" placeholder="请把你需要转换的内容粘贴在这里"></textarea>
+            </div>
+            <div class="pr JsTxtW-r ml20 fl">
+                <textarea class="JsTxtCo bor-a1s h200 WrapHid wwlr-l" name="result" id="id_result" placeholder="转换后的结果"></textarea>
+            </div>
+        </div>
+
+        <div class="GuoLvWrapCenter pt10 clearfix">
+            <div class="GuoLvCbtn">
+                <input type="button" id="id_unicode2chn" value="Unicode 转 中文" class="GLOkBtn">
+                <input type="button" id="id_chn2unicode" value="中文 转 Unicode" class="GLOkBtn">
+                <input type="button" id="id_asicc2unicode" value="ASCII 转 Unicode" class="GLOkBtn">
+                <input type="button" id="id_unicode2asicc" value="Unicode 转 ASCII" class="GLOkBtn">
+                <input type="button" id="id_clear" value="清空结果" class="bg-blue02 YaHei">
+            </div>
+        </div>
+        <!--GuoLvWrap-end-->
+    </div>
+</div>
+<!--ToolMain02-end-->
+
+</body>
+</html>
