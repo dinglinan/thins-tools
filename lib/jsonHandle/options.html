@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+		<script type="text/javascript" src="JSON-handle/js/jh.js"></script>
+		<script type="text/javascript" src="JSON-handle/js/jquery.min.js"></script>
+		<script type="text/javascript" src="JSON-handle/js/ad.js"></script>
+		<script type="text/javascript" src="JSON-handle/js/lang.js"></script>
+		<script type="text/javascript" src="envSetting.js"></script>
+		<link href="JSON-handle/css/opt.css" type="text/css" rel="stylesheet" media="all" />
+		<title> Setting JSON-handle </title>
+		<style type="text/css">
+			body {background-color:#fff;margin:0;@box-shadow:2px 2px 22px #fff inset;padding:5px;color:#555;float: right;}
+			.unit {display:block;margin:1em 0;}
+			#open {margin:1em 0;}
+			fieldset {width:360px;border:1px solid #bbb;}
+			legend {color:#4c6cdd;}
+			.function {text-align:right;}
+		</style>
+	</head>
+
+	<body style="visibility:hidden;">
+		<fieldset>
+			<legend class="langID_title_10">Setting</legend>
+			<span class="unit"><input type="checkbox" id="able" /><label for="able" class="langID_title_4">Auto render JSON</label></span>
+			<span class="unit"><input type="checkbox" id="defaultShowPanel" /><label for="defaultShowPanel" class="langID_title_5">Show panel</label></span>
+			<span class="unit">
+				<span class="langID_title_6">Show img mode</span> : 
+				<label for="showImgWhenHover"><input type="radio" id="showImgWhenHover" name="showImgMode" value="hover"/><span class="langID_title_8">When hover</span></label>
+				<label for="showImgAll"><input type="radio" id="showImgAll" name="showImgMode" value="all" /><span class="langID_title_7">Show all</span></label>
+			</span>
+			<span class="unit">
+				<span class="langID_title_9">Open JH mode</span> : 
+				<label for="byWindow"><input type="radio" id="byWindow" name="openJhMode" value="win" />Window</label>
+				<label for="byTab"><input type="radio" id="byTab" name="openJhMode" value="tab" />Tab</label>
+			</span>
+			<span class="unit"><label for="lang">language : </label><select id="lang">
+				<option value="zh-cn" selected="selected">zh-cn</option>
+				<option value="zh-tw">zh-tw</option>
+				<option value="en">en</option>
+			</select></span>
+			<button id="ok" type="button">ok</button>
+		</fieldset>
+
+		<fieldset class="hide ad-help">
+			<button id="closeAdBtn" type="button">☓</button>
+			<legend id="aboutAdBtn" class="langID_title_11">About Ad in JH</legend>
+			<div class="content">
+				<p class="langID_msg_9">Why is there a Ad?</p>
+				<p><span class="langID_msg_10">A little power for author to support JSON-handle, & He hope recommend more great tools and application to all.</span> <a class="langID_button_10" href="mailto:jsonhandle@gmail.com">contact</a></p>
+				<div class="ad-list"><ul>
+				</ul></div>
+			</div>
+		</fieldset>
+		<script type="text/javascript" src="options.js"></script>
+		
+	</body>
+</html>

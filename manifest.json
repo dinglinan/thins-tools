@@ -2,7 +2,7 @@
   "name": "THINS-TOOLS",
   "short_name": "THINS-TOOLS",
   "background": {
-    "scripts": ["lib/unixTimeStamp/main.js","lib/showIP/js/background.js"]
+    "scripts": ["lib/unixTimeStamp/main.js","lib/showIP/js/background.js","lib/jsonHandle/background.js"]
    },
   "chrome_url_overrides": {
     "newtab": "core/newTab.html"
@@ -21,6 +21,7 @@
     },
     "default_title": "showIP"
   },
+  "offline_enabled": true,
    "manifest_version": 2,
   "optional_permissions": [ "topSites", "chrome://favicon/" ],
   "permissions": [
@@ -28,15 +29,21 @@
   ],
   "update_url": "https://clients2.google.com/service/update2/crx",
   "version": "0.0.1",
-  "options_page": "lib/showIP/option/options.html",
+  "options_page": "lib/options.html",
   "content_scripts":[
     {
       "matches":["*://*/*","http://*/*","https://*/*"],
-      "js":["lib/jquery-1.10.2.min.js"]
+      "js":["lib/common/jquery-1.10.2.min.js"]
     },
     {
       "matches":["\u003Call_urls>"],
       "js":["lib/showIP/js/hover-box.js"],
+      "run_at": "document_end"
+    },
+    {
+      "all_frames": false,
+      "js": [ "lib/jsonHandle/content_scripts.js" ],
+      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file:///*" ],
       "run_at": "document_end"
     }
   ],
@@ -44,6 +51,6 @@
     "pages": ["lib/editPlusRegCode.html" ]
   },
   "web_accessible_resources": [
-    "assets/UNIX_TS_2.png"
+    "assets/UNIX_TS_2.png","lib/jsonHandle/JSON-handle/JSON-handle.html"
   ]
 }
