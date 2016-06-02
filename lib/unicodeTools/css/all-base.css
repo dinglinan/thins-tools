@@ -88,7 +88,7 @@ th{text-align:inherit;}
 body.Bgwhite{ background-color:#FFF;}
 
 /*wrapper*/
-.wrapper{ width:1200px; margin-left:auto;margin-right:auto; background:#fff; height:auto;}
+.wrapper{ width:1200px; margin-left:auto;margin-right:auto; background:#fff; height:auto;font-size: medium;}
 .wrapper02{ width:1200px; margin-left:auto;margin-right:auto;height:auto;}
 .wrapper03{ width:1160px; margin-left:auto;margin-right:auto; background:#fff; height:auto;}
 
