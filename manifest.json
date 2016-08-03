@@ -2,55 +2,99 @@
   "name": "THINS-TOOLS",
   "short_name": "THINS-TOOLS",
   "background": {
-    "scripts": ["lib/unixTimeStamp/main.js","lib/showIP/js/background.js","lib/jsonHandle/background.js"]
-   },
+    "persistent": true,
+    "scripts": [
+      "lib/unixTimeStamp/main.js",
+      "lib/showIP/js/background.js",
+      "lib/jsonHandle/background.js",
+      "lib/todo/todo.js"
+    ]
+  },
   "chrome_url_overrides": {
     "newtab": "core/newTab.html"
   },
-   "description": "desc",
-   "homepage_url": "http://www.richdown.com",
-   "icons": {
-      "16": "assets/icon_16.png",
-      "48": "assets/icon_128.png",
-      "128": "assets/icon_128.png"
-   },
+  "description": "desc",
+  "homepage_url": "http://www.richdown.com",
+  "icons": {
+    "16": "assets/icon_16.png",
+    "48": "assets/icon_128.png",
+    "128": "assets/icon_128.png"
+  },
   "browser_action": {
     "default_icon": {
       "19": "assets/icon_19.png",
       "38": "assets/icon_38.png"
     },
-    "default_title": "showIP"
+    "default_title": "TODO",
+    "default_popup":"lib/todo/index2.html"
   },
   "offline_enabled": true,
-   "manifest_version": 2,
-  "optional_permissions": [ "topSites", "chrome://favicon/" ],
+  "manifest_version": 2,
+  "optional_permissions": [
+    "topSites",
+    "chrome://favicon/"
+  ],
   "permissions": [
-    "tabs", "*://*/*","contextMenus","declarativeContent","tabs", "bookmarks", "management", "unlimitedStorage","webRequest", "\u003Call_urls>"
+    "tabs",
+    "*://*/*",
+    "contextMenus",
+    "declarativeContent",
+    "tabs",
+    "bookmarks",
+    "management",
+    "unlimitedStorage",
+    "webRequest",
+    "\u003Call_urls>"
   ],
   "update_url": "https://clients2.google.com/service/update2/crx",
   "version": "0.0.1",
   "options_page": "lib/options.html",
-  "content_scripts":[
+  "content_scripts": [
     {
-      "matches":["*://*/*","http://*/*","https://*/*"],
-      "js":["lib/common/jquery-1.10.2.min.js"]
+      "matches": [
+        "*://*/*",
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "lib/common/jquery-1.10.2.min.js"
+      ]
     },
     {
-      "matches":["\u003Call_urls>"],
-      "js":["lib/showIP/js/hover-box.js"],
+      "matches": [
+        "\u003Call_urls>"
+      ],
+      "js": [
+        "lib/showIP/js/hover-box.js"
+      ],
       "run_at": "document_end"
     },
     {
       "all_frames": false,
-      "js": [ "lib/jsonHandle/content_scripts.js" ],
-      "matches": [ "http://*/*", "https://*/*", "ftp://*/*", "file:///*" ],
+      "js": [
+        "lib/jsonHandle/content_scripts.js"
+      ],
+      "matches": [
+        "http://*/*",
+        "https://*/*",
+        "ftp://*/*",
+        "file:///*"
+      ],
       "run_at": "document_end"
+    },
+    {
+      "js": [ "lib/todo/todo.js" ],
+      "matches": [ "*://*/*" ],
+      "run_at": "document_start"
     }
   ],
   "sandbox": {
-    "pages": ["lib/editPlusRegCode.html" ]
+    "pages": [
+      "lib/editPlusRegCode.html"
+    ]
   },
   "web_accessible_resources": [
-    "assets/UNIX_TS_2.png","lib/jsonHandle/JSON-handle/JSON-handle.html"
+    "assets/UNIX_TS_2.png",
+    "lib/jsonHandle/JSON-handle/JSON-handle.html"
   ]
 }
