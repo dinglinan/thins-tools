@@ -26,7 +26,7 @@
       "38": "assets/icon_38.png"
     },
     "default_title": "TODO",
-    "default_popup":"lib/todo/index2.html"
+    "default_popup":"lib/todo/index.html"
   },
   "offline_enabled": true,
   "manifest_version": 2,

@@ -17,12 +17,12 @@ ul, li {
     display: none;
 }
 
-#tab_t {
+#id_tab_t {
     height: 25px;
     border-bottom: 1px solid #ccc;
 }
 
-#tab_t li {
+#id_tab_t li {
     float: left;
     width: 80px;
     height: 24px;
@@ -35,25 +35,25 @@ ul, li {
     cursor: pointer
 }
 
-#tab_t .act {
+#id_tab_t .act {
     position: relative;
     height: 25px;
     margin-bottom: -1px;
     background: #fff;
 }
 
-#tab_c {
+#id_tab_c {
     border: 1px solid #ccc;
     border-top: none;
-    padding: 5px;
+    padding: 5px 5px 3px 5px;
     margin: 0px 1px;
 }
 
-#tab_c ul{
+#id_tab_c ul{
     margin: auto;
 }
 
-#tab_c ul li{
+#id_tab_c ul li{
     border: 1px dashed #ccc;
     border-left: 0px;
     border-right: 0px;
@@ -61,18 +61,18 @@ ul, li {
     height: 25px;
 }
 
-#tab_c ul li:last-child{
+#id_tab_c ul li:last-child{
     border: 0px;
 }
 
-#tab_c ul li input[type="text"]{
+#id_tab_c ul li input[type="text"]{
     width: 256px;
     height: 19px;
     border: 0px;
     font: 16px normal;
 }
 
-#tab_c input[type="text"]{
+#id_tab_c input[type="text"]{
     width: 280px;
     height: 23px;
 }
@@ -87,7 +87,7 @@ ul, li {
     font: 16px normal;
 }
 
-#tab_c ul li:last-child div{
+#id_tab_c ul li:last-child div{
     margin-top: -16px;
 }
 
@@ -104,4 +104,13 @@ ul, li {
 .item_delete{
     color: #FFFFFF;
     background-color: #FF5959;
+}
+#checkbox-1 {
+    display: none;
+}
+#checkbox-1 + label {
+    color: red;
+}
+#checkbox-1:checked + label {
+    color: blue;
 }
