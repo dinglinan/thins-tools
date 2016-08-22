@@ -85,6 +85,7 @@ ul, li {
     margin-left: 222px;
     text-align: right;
     font: 16px normal;
+    display: none;
 }
 
 #id_tab_c ul li:last-child div{
@@ -101,7 +102,7 @@ ul, li {
     background-color: #68C3FF;
 }
 
-.item_delete{
+.item_del{
     color: #FFFFFF;
     background-color: #FF5959;
 }
