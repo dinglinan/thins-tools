@@ -37,11 +37,14 @@
   "permissions": [
     "tabs",
     "*://*/*",
+    "storage",
     "contextMenus",
     "declarativeContent",
     "tabs",
     "bookmarks",
     "management",
+    "cookies",
+    "notifications",
     "unlimitedStorage",
     "webRequest",
     "\u003Call_urls>"
