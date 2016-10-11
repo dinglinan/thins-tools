@@ -7,7 +7,7 @@
       "lib/unixTimeStamp/main.js",
       "lib/showIP/js/background.js",
       "lib/jsonHandle/background.js",
-      "lib/todo/todo.js"
+      "lib/todo/mytodo.js"
     ]
   },
   "chrome_url_overrides": {
@@ -84,11 +84,6 @@
         "file:///*"
       ],
       "run_at": "document_end"
-    },
-    {
-      "js": [ "lib/todo/todo.js" ],
-      "matches": [ "*://*/*" ],
-      "run_at": "document_start"
     }
   ],
   "sandbox": {

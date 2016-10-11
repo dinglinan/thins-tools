@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <title>todo</title>
     <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="../common/jquery-3.1.0.slim.min.js"></script>
     <script type="text/javascript" src="../common/underscore-min.js"></script>
-
-    <script type="text/javascript" src="todo.js"></script>
-    <title>todo</title>
+    <script type="text/javascript" src="locache.js"></script>
+    <script type="text/javascript" src="mytodo.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -48,18 +48,16 @@
 
 </div>
 <!-- template -->
-<script type="x-html-template" id="id_item_tpl">
-    <%_.each(obj,function(e,i){%>
+<div id="id_item_tpl" class="hide">
     <li>
         <input type="checkbox"/>
-        <label><%=e.ctnt%></label>
+        <label>{#lable#}</label>
         <input type="text" class="dy_ipt hide" value="">
         <div class="item_hover">
             <a href="#" class="item_move" onclick="moveTodo(todo)">ltr</a>
             <a href="#" class="item_del" onclick="remove(todo)">del</a>
         </div>
     </li>
-    <%})%>
-</script>
+</div>
 </body>
 </html>
