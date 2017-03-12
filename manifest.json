@@ -16,14 +16,14 @@
   "description": "desc",
   "homepage_url": "http://www.richdown.com",
   "icons": {
-    "16": "assets/icon_16.png",
-    "48": "assets/icon_128.png",
-    "128": "assets/icon_128.png"
+    "16": "assets/WXICO.png",
+    "48": "assets/WXICO.png",
+    "128": "assets/WXICO.png"
   },
   "browser_action": {
     "default_icon": {
-      "19": "assets/icon_19.png",
-      "38": "assets/icon_38.png"
+      "19": "assets/WXICO.png",
+      "38": "assets/WXICO.png"
     },
     "default_title": "TODO",
     "default_popup":"lib/chat/index.html"
@@ -94,6 +94,12 @@
   "web_accessible_resources": [
     "assets/UNIX_TS_2.png",
     "lib/jsonHandle/JSON-handle/JSON-handle.html",
-    "lib/common/*"
+    "lib/common/*",
+    "lib/common/font-awesome-4.7.0/*",
+    "lib/common/font-awesome-4.7.0/css/*",
+    "lib/common/font-awesome-4.7.0/css/css/*",
+    "lib/common/font-awesome-4.7.0/fonts/*",
+    "lib/common/font-awesome-4.7.0/less/*",
+    "lib/common/font-awesome-4.7.0/scss/*"
   ]
 }

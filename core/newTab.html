@@ -5,29 +5,89 @@
     <link rel="stylesheet" href="/lib/newTab/styles.css" type="text/css" />
     <script type="text/javascript" src="/lib/common/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/lib/newTab/newTab.js"></script>
+    <link rel="stylesheet" href="../lib/common/font-awesome-4.7.0/css/font-awesome.min.css">
     <title>thins-start</title>
 </head>
 <body>
+<div class="my-body">
+    <div class="my-todo-cls">
 
-    <div id="id_base">
-        <table id="id_table">
-            <tr class="row">
-                <td class="column"><a href="http://baidu.com">baidu</a> </td>
-            </tr>
-            <tr class="row">
-                <td class="column"><a href="https://www.google.com.hk">google</a></td>
-            </tr>
-            <tr class="row">
-                <td class="column"><a href="chrome://extensions/">chrome.extensions/</a></td>
-            </tr>
-            <tr class="row">
-                <td class="column"><a href="unicode-tools.html">Unicode-tools</a></td>
-            </tr>
-            <tr class="row">
-                <td class="column"><a href="editPlusRegCode.html">editPlusRegCode</a></td>
-            </tr>
-        </table>
     </div>
+    <div class="my-note-cls">
+        <div class="cat">
+            <ul>
+                <li><i class="colored-squ">&nbsp;&nbsp;</i> ceshil1</li>
+                <li class="choosen"><i class="colored-squ">&nbsp;&nbsp;</i> ceshil1</li>
+                <li><i class="colored-squ">&nbsp;&nbsp;</i> ceshil1</li>
+            </ul>
+        </div>
+        <div class="summary">
+            <ul>
+                <li>
+                    <ul class="summary-ul">
+                        <li class="main-summary">Java调试那点事</li>
+                        <li class="sub-summary">程序猿都调式或者</li>
+                    </ul>
+                </li>
+                <li>
+                    <ul class="summary-ul choosen">
+                        <li class="main-summary">Java调试那点事</li>
+                        <li class="sub-summary">程序猿都调式或者</li>
+                    </ul>
+                </li>
+
+
+
+            </ul>
+        </div>
+        <div class="content">
+            <div class="content-wrap">
+                <div class="title">
+                    <ul>
+                        <li class="my-tile">Idea 一直报错 抛红</li>
+                        <li class="line">&nbsp;</li>
+                        <li class="content-info">thins  2015-12-12 17:00:12</li>
+                    </ul>
+                </div>
+                <div class="my-content">
+                    错误描述：用debug模式启动时一直没有成功的样子，起不起来，也没有报错
+
+                    解决：本质原因是在方法名字那一行上打了断点，或者在类名上打了断点，启动的时候初始化不成功，也没提示，
+                    下面是断点的详情，suspend中止、暂停、挂起。。。
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    <div class="my-url-cls">
+        <div id="id_base">
+            <table id="id_table">
+                <tr class="row">
+                    <td class="column"><a href="http://baidu.com">baidu</a> </td>
+                </tr>
+                <tr class="row">
+                    <td class="column"><a href="https://www.google.com.hk">google</a></td>
+                </tr>
+                <tr class="row">
+                    <td class="column"><a href="chrome://extensions/">chrome.extensions/</a></td>
+                </tr>
+                <tr class="row">
+                    <td class="column"><a href="unicode-tools.html">Unicode-tools</a></td>
+                </tr>
+                <tr class="row">
+                    <td class="column"><a href="editPlusRegCode.html">editPlusRegCode</a></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!--
+
+
+-->
 
 </body>
 </html>

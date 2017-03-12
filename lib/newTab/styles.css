@@ -1,4 +1,136 @@
 /* CSS file placeholder. */
+
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    font: 17px arial;
+    color: #333;
+}
+
+.my-body{
+    margin-top: 10px;
+}
+
+.my-todo-cls{
+    width: 25%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-left: 0px;
+    height: 800px;
+    float: left;
+}
+.my-note-cls{
+    width: 59%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-left: 0px;
+    height: 800px;
+    float: left;
+}
+.my-url-cls{
+    width: 15%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    height: 800px;
+    float: left;
+}
+
+.cat{
+    width: 15%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-left: 0px;
+    float: left;
+
+}
+.summary{
+    width: 23%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-left: 0px;
+    float: left;
+    border-right: 0px;
+}
+.content{
+    width: 61%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-right: 0px;
+    float: left;
+}
+.my-content{
+    height: 600px;
+}
+
+ul, li {
+    list-style: none;
+}
+
+.cat li {
+    line-height: 25px;
+    height: 25px;
+    text-align: left;
+}
+
+.summary-ul{
+    line-height: 58px;
+    height: 58px;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.main-summary{
+    padding-top: 6px;
+}
+.sub-summary{
+    line-height: 25px;
+    height: 25px;
+    font-size: 13px;
+    color: grey;
+    text-align: left;
+}
+
+.cat .choosen, .summary .choosen{
+    background-color: #8de08d;
+}
+
+
+.colored-squ{
+    background-color: #8de08d;
+    padding: 2px;
+}
+
+.content-wrap .title ul{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.my-tile{
+    padding-left: 10px;
+}
+.line{
+    height: 7px;
+    width: 80%;
+    border: 1px solid #d0d0d0;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+.content-info{
+    font-size: 12px;
+    color: #6b6b6b;
+    margin-top: 3px;
+    padding-left: 10px;
+}
+
+.my-content{
+    margin: 20px 20px 20px 22px;
+    font-size: 14px;
+}
+
+
 #id_base {
     /*width:90%;*/
     /*min-width:800px;*/
@@ -14,8 +146,8 @@
 }
 #id_table{
     width: 80%;
-    height: 90%;
-    margin: 50px 0 0 0;
+    /*height: 90%;
+    margin: 50px 0 0 0;*/
     text-align: right;
 }
 
