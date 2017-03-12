@@ -3,7 +3,7 @@
 body, ul, li {
     margin: 0;
     padding: 0;
-    font: 17px arial;
+    font: 15px arial;
     color: #333;
 }
 
@@ -13,51 +13,37 @@ body, ul, li {
 
 .my-todo-cls{
     width: 25%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-left: 0px;
+    border-left: 1px solid #d0d0d0;
     height: 800px;
     float: left;
 }
 .my-note-cls{
     width: 59%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-left: 0px;
+    border-left: 1px solid #d0d0d0;
     height: 800px;
     float: left;
 }
 .my-url-cls{
     width: 15%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-top: 0px;
-    border-left: 0px;
+    border-left: 1px solid #d0d0d0;
     height: 800px;
     float: left;
 }
 
 .cat{
     width: 15%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-left: 0px;
+    border-left: 1px solid #d0d0d0;
     float: left;
 
 }
 .summary{
     width: 23%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-left: 0px;
+    border-left: 1px solid #d0d0d0;
     float: left;
-    border-right: 0px;
 }
 .content{
     width: 61%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-right: 0px;
+    border-left: 1px solid #d0d0d0;
     float: left;
 }
 .my-content{
@@ -72,22 +58,24 @@ ul, li {
     line-height: 25px;
     height: 25px;
     text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .summary-ul{
     line-height: 58px;
-    height: 58px;
+    height: 56px;
     text-align: left;
-    padding-left: 5px;
+    padding-left: 9px;
 }
 
 .main-summary{
-    padding-top: 6px;
+    padding-top: 7px;
 }
 .sub-summary{
     line-height: 25px;
     height: 25px;
-    font-size: 13px;
+    font-size: 12px;
     color: grey;
     text-align: left;
 }
@@ -99,7 +87,9 @@ ul, li {
 
 .colored-squ{
     background-color: #8de08d;
-    padding: 2px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-right: 5px;
 }
 
 .content-wrap .title ul{
@@ -109,17 +99,15 @@ ul, li {
 
 .my-tile{
     padding-left: 10px;
+    font-size: 17px;
 }
 .line{
     height: 7px;
     width: 80%;
-    border: 1px solid #d0d0d0;
-    border-top: 0px;
-    border-left: 0px;
-    border-right: 0px;
+    border-bottom: 1px solid #d0d0d0;
 }
 .content-info{
-    font-size: 12px;
+    font-size: 11px;
     color: #6b6b6b;
     margin-top: 3px;
     padding-left: 10px;
