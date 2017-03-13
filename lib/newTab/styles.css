@@ -88,7 +88,7 @@ ul, li {
 .colored-squ{
     background-color: #8de08d;
     padding-top: 6px;
-    padding-bottom: 5px;
+    padding-bottom: 6px;
     margin-right: 5px;
 }
 
@@ -116,6 +116,7 @@ ul, li {
 .my-content{
     margin: 20px 20px 20px 22px;
     font-size: 14px;
+    line-height: 25px;
 }
 
 

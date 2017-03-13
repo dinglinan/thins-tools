@@ -1,0 +1,12 @@
+/**
+ * Created by dingjiang on 23/12/2016.
+ */
+
+.layim-chat-textarea {
+    height: 60px;
+}
+
+i {
+    color: grey;
+    /*border-bottom: 1px solid #F1F1F1;*/
+}
