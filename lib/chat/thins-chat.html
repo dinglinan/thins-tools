@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>thins-chat</title>
+    <meta name="renderer" content="webkit" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="../common/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/chat.css" />
+    <script type="text/javascript" src="../common/jquery-3.1.0.slim.min.js"></script>
+    <script type="text/javascript" src="../common/locache.js"></script>
+    <script type="text/javascript" src="js/des.js"></script>
+    <script type="text/javascript" src="js/chat-2.js"></script>
+</head>
+<body>
+<div class="chat-body">
+    <div class="chat-left-bar">
+        <div class="left-bar-act">
+            <div class="act-div act-close"><div class="act-wrap act-wrap-close"><i class="fa fa-times" aria-hidden="true"></i></div></div>
+            <div class="act-div act-min"><div class="act-wrap act-wrap-min"><i class="fa fa-minus" aria-hidden="true"></i></div></div>
+            <div class="act-div act-max"><div class="act-wrap act-wrap-max"><i class="fa fa-expand" aria-hidden="true"></i></div></div>
+        </div>
+        <div class="left-bar-my-avatar">
+            <img class="my-avatar-img" src="img/xiaobu.png" />
+        </div>
+        <div class="bar-ico lupper eft-bar-recent-ico">
+            <i class="fa fa-comment" aria-hidden="true"></i>
+        </div>
+        <div class="bar-ico upper left-bar-friends-ico">
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+        </div>
+        <div class="bar-ico upper left-bar-favourite-ico">
+            <i class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+        <div class="bar-ico down left-bar-settings-ico">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+    </div>
+
+    <div class="chat-friend-list">
+        <div class="search-area">
+            <div class="search-div"><input type="text" placeholder="Search" /></div>
+            <div class="add-btn"><i class="fa fa-plus-square-o" aria-hidden="true"></i></div>
+        </div>
+        <div class="recent-list">
+            <div class="one-friend">
+                <div class="friend-avatar">
+                    <img class="friend-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="friend-info">
+                    <div class="friend-info-and-last-contact-date">
+                        <i class="friend-list-uname">Bruce Wyne</i>
+                        <i class="last-contect-data">2017-12-21 18:00</i>
+                    </div>
+                    <div class="last-contact-summary">
+                        <i>和你说话呢傻逼行不行</i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="friend-list">
+
+        </div>
+
+    </div>
+    <div class="chat-area">
+        <div class="chat-tile">
+            <div class="friend-name">二货</div>
+            <div class="friend-mood">签名：脑子是个好东西，希望我有。。。</div>
+
+        </div>
+        <div class="chat-content-area">
+
+
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+            <div class="one-msg">
+                <div class="user-avatar u-right">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-right">
+                    <div class="msg-arrow a-right"></div>
+                    <div class="msg-content c-right">
+                        <div class="msg-txt">喂，你好吗？！</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="one-msg">
+                <div class="user-avatar u-left">
+                    <img class="user-avatar-img" src="img/xiaobu.png" />
+                </div>
+                <div class="msg-pop p-left">
+                    <div class="msg-arrow a-left"></div>
+                    <div class="msg-content c-left">
+                        <div class="msg-txt">喂，你好吗？！和i书你说话呢 大傻叉你说话呢 大傻叉你说话呢
+                            大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉你说话呢 大傻叉</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="input-area">
+            <div class="chat-tool-bar">
+                <div class="ico-left emoji-ico"><i class="fa fa-meh-o fa-lg" aria-hidden="true"></i></div>
+                <div class="ico-left file-ico"><i class="fa fa-folder-o fa-lg" aria-hidden="true"></i></div>
+                <div class="ico-right voice-ico"><i class="fa fa-phone fa-lg" aria-hidden="true"></i></div>
+                <div class="ico-right video-ico"><i class="fa fa-video-camera fa-lg" aria-hidden="true"></i></div>
+
+            </div>
+            <div class="txt-input-area">
+                <div class="editatble-div" contenteditable="true"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
