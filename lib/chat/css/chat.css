@@ -39,6 +39,9 @@ ul, li {
     height: 30px;
     width: 100%;
 }
+.left-bar-act .fa{
+    color: #f7f7f7;
+}
 .act-div{
     float: left;
     width: 10px;
@@ -47,15 +50,35 @@ ul, li {
     margin-left: 7px;
     margin-top: 12px;
 }
+.left-bar-act:hover .act-wrap{
+    display: block;
+}
 
 .act-close{
     background-color: #fb1d1d;
 }
+.act-wrap-close{
+    font-size: 9px;
+    margin-left: 0.15em;
+    display: none;
+}
 .act-min{
     background-color: #ffda17;
 }
+.act-wrap-min{
+    font-size: 9px;
+    margin-left: 0.16em;
+    margin-top: 0.06em;
+    display: none;
+}
 .act-max{
     background-color: #0cd40c;
+}
+.act-wrap-max{
+    font-size: 7px;
+    margin-left: 0.3em;
+    margin-top: 0.22em;
+    display: none;
 }
 
 
@@ -179,6 +202,35 @@ ul, li {
     float: left;
     width: 100%;
 
+}
+.chat-tool-bar{
+    width: 96%;
+    height: 35px;
+    /* background-color: red; */
+    margin-left: 8px;
+}
+.ico-left{
+    width: 15px;
+    float: left;
+    padding: 9px;
+}
+.ico-right{
+    width: 15px;
+    float: right;
+    padding: 9px;
+}
+.txt-input-area{
+    width: 100%;
+    height: 110px
+}
+.editatble-div{
+    width: 97%;
+    height: 94%;
+    padding: 0px;
+    /* background-color: red; */
+    margin-left: 9px;
+    margin-top: 6px;
+    line-height: 22px;
 }
 
 
