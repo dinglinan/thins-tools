@@ -31,8 +31,8 @@ ul, li {
     border-right: 1px solid #d8d8d8;
     float: left;
     border-radius: 3px;
-    background-color: #626275;
-    opacity: 80;
+    background-color: #262626;
+    opacity: 0.85;
 }
 
 .left-bar-act{
@@ -40,7 +40,7 @@ ul, li {
     width: 100%;
 }
 .left-bar-act .fa{
-    color: #f7f7f7;
+    color: #333333;
 }
 .act-div{
     float: left;
@@ -72,23 +72,26 @@ ul, li {
     display: none;
 }
 .act-max{
-    background-color: #0cd40c;
+    background-color: #7CF259;
 }
 .act-wrap-max{
-    font-size: 7px;
-    margin-left: 0.3em;
-    margin-top: 0.22em;
+    font-size: 9px;
+    margin-left: 0.06em;
+    margin-top: 0.01em;
     display: none;
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
 }
 
 .left-bar-my-avatar{
     margin-top: 16px;
 }
 .my-avatar-img{
-    width: 45px;
-    height: 45px;
-    border-radius: 9px;
-    padding: 7px;
+    width: 42px;
+    height: 42px;
+    border-radius: 10px;
+    padding: 8px;
 }
 
 .bar-ico{
@@ -259,7 +262,7 @@ ul, li {
 .a-right{
     margin-right: -22px;
     float: right;
-    background: #5ae45a;
+    background: #7CF259;
 }
 
 .user-avatar-img{
@@ -297,7 +300,7 @@ ul, li {
     background-color: #fff;
 }
 .c-right{
-    background-color: #5ae45a;
+    background-color: #7CF259;
 }
 
 
