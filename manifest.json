@@ -26,7 +26,7 @@
       "38": "assets/WXICO.png"
     },
     "default_title": "TODO",
-    "default_popup":"lib/chat/index.html"
+    "default_popup":"lib/chat/thins-chat.html"
   },
   "offline_enabled": true,
   "manifest_version": 2,
